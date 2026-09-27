@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="430" viewBox="0 0 1200 430" role="img" aria-labelledby="title desc">
+  <title id="title">VinylWaves architecture</title>
+  <desc id="desc">Browser requests pass through Jakarta Servlets to DAO classes and MySQL, then return through JSP views.</desc>
+  <rect width="1200" height="430" rx="28" fill="#1f1714"/>
+  <g font-family="Segoe UI, Arial, sans-serif" text-anchor="middle">
+    <text x="600" y="52" fill="#f7ede5" font-size="25" font-weight="700">Request to rendered page</text>
+    <g fill="#fffaf5" stroke="#7b4b90" stroke-width="3">
+      <rect x="55" y="140" width="205" height="130" rx="18"/>
+      <rect x="330" y="140" width="205" height="130" rx="18"/>
+      <rect x="665" y="140" width="205" height="130" rx="18"/>
+      <rect x="940" y="140" width="205" height="130" rx="18"/>
+    </g>
+    <g fill="#2e211c">
+      <text x="158" y="190" font-size="22" font-weight="700">Browser</text>
+      <text x="158" y="225" font-size="16">HTML · CSS · JS</text>
+      <text x="432" y="190" font-size="22" font-weight="700">Servlets</text>
+      <text x="432" y="225" font-size="16">routing · validation</text>
+      <text x="767" y="190" font-size="22" font-weight="700">DAO + Beans</text>
+      <text x="767" y="225" font-size="16">domain · SQL access</text>
+      <text x="1042" y="190" font-size="22" font-weight="700">MySQL</text>
+      <text x="1042" y="225" font-size="16">users · products · orders</text>
+    </g>
+    <g stroke="#c79ad8" stroke-width="5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M260 205h58"/><path d="M305 193l13 12-13 12"/>
+      <path d="M535 205h118"/><path d="M640 193l13 12-13 12"/>
+      <path d="M870 205h58"/><path d="M915 193l13 12-13 12"/>
+    </g>
+    <path d="M535 310v35H260v-35" fill="none" stroke="#e8c77b" stroke-width="4" stroke-linecap="round"/>
+    <text x="397" y="380" fill="#e8c77b" font-size="18" font-weight="600">JSP renders the response</text>
+  </g>
+</svg>
